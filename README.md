@@ -1,0 +1,2 @@
+# aodsec_search
+整合fofa和shodan的批量搜索资产脚本
