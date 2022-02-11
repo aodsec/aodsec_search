@@ -24,7 +24,7 @@ def saveMessage(content,file):
     fp.close()
 
 def getFofaMsg(email,api_key,flag,size):
-	api = r'https://fofa.so/api/v1/search/all?email={}&key={}&qbase64={}&size={}'
+	api = r'https://fofa.info/api/v1/search/all?email={}&key={}&qbase64={}&size={}'
 	print(api.format(email,api_key,flag,size))
 	response = requests.get(api.format(email,api_key,flag,size))
 	print(response.json())
